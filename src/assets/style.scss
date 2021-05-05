@@ -1,0 +1,103 @@
+.app-container {
+    width: 100%;
+    height: auto;
+}
+.wrap {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin: 30px auto;
+    padding: 30px;
+    border: 1px solid #d3d3d3;
+    .list {
+
+        table {
+            max-width: 500px;
+            margin: 0 auto;
+            border: 1px solid #d3d3d3;
+            background-color: #eee;
+            tr {
+                td {
+                    min-width: 130px;
+                    padding: 8px 20px;
+                }
+            }
+            thead {
+                font-weight: bold;
+            }
+            tbody {
+                
+                tr:hover {
+                    cursor: pointer;
+                    background-color: #c3c3c3;
+                }
+            }
+        }
+    }
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    .bgcolor__1 {
+        background-color: #55a84f;   
+    }
+    .bgcolor__2 {
+        background-color: #a3c853;   
+    }
+    .bgcolor__3 {
+        background-color: #fff832;   
+    }
+    .bgcolor__4 {
+        background-color: #f29c32;   
+    }
+    .bgcolor__5 {
+        background-color: #e93f33;   
+    }
+    .bgcolor__6 {
+        background-color: #af2d24;   
+    }
+    .standards {
+        font-weight: bold;
+        text-align: center;
+        margin: 10px auto;
+        td {
+            min-width: 200px;
+            padding: 5px 10px;
+        }
+    }
+    .header {
+        margin-bottom: 10px;
+        display: block;
+        line-height: 2;
+        position: relative;
+        h2 {
+            text-align: center;
+        }
+        .btn {
+            padding: 5px 10px;
+            color: #4d4d4d;
+            border: 1px solid #4d4d4d;
+            cursor: pointer;
+            position: absolute;
+            line-height: 1.5;
+            border-radius: 5px;
+            width: 125px;
+            z-index: 1;
+            top: 0;
+            text-align: center;
+            margin-top: 6px;
+            &:hover {
+                color: #fff;
+                background-color: #2196f3;
+                border-color: #2196f3;
+            }
+        }
+        .left {
+            left: 0;
+            width: 50px;
+        }
+        .right {
+            right: 0;
+        }
+    }
+}
