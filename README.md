@@ -1,4 +1,4 @@
-### Here is the manual for getting started with friend list react app
+### Here is the manual for getting started with air quality monitor react app
 
 
 ## To setup the app in local environment please follow the below steps
